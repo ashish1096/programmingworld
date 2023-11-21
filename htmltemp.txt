@@ -1,0 +1,256 @@
+    <!-- Page 16 -->
+    <div class="page-16">
+        <div class="pricetemp pb-5" id="pricing" class="pricing-content section-padding">
+            <div class="">
+                <div class="section-title text-center">
+                    <h3 style="font-size: x-large; padding-top: 0.5rem;">OUR STUDY PRICES</h3>
+                    <p><strong>Discover Your Perfect Program In Our Courses.</strong></p>
+                </div>
+                <div class="row text-center">
+                    <div class="col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s"
+                        data-wow-offset="0"
+                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        <div class="pricing_design">
+                            <div class="single-pricing">
+                                <div class="price-head">
+                                    <h2>Basic</h2>
+                                    <h1>$0</h1>
+                                    <span>/Monthly</span>
+                                </div>
+                                <ul>
+                                    <li>All Operating Supported</li>
+                                    <li>Great Interface</li>
+                                    <li>Allow encription</li>
+                                    <li>Face recognized system</li>
+                                    <li>24/7 Full support</li>
+                                </ul>
+                                <div class="pricing-price">
+
+                                </div>
+                                <a href="#" class="price_btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- END COL -->
+                    <div class="col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s"
+                        data-wow-offset="0"
+                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <div class="pricing_design">
+                            <div class="single-pricing">
+                                <div class="price-head">
+                                    <h2>Professional</h2>
+                                    <h1 class="price">$499</h1>
+                                    <span>/Monthly</span>
+                                </div>
+                                <ul>
+                                    <li>All Operating Supported</li>
+                                    <li>Great Interface</li>
+                                    <li>Allow encription</li>
+                                    <li>Face recognized system</li>
+                                    <li>24/7 Full support</li>
+                                </ul>
+                                <div class="pricing-price">
+
+                                </div>
+                                <a href="#" class="price_btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- END COL -->
+                    <div class="col-sm-4 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s"
+                        data-wow-offset="0"
+                        style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="pricing_design">
+                            <div class="single-pricing">
+                                <div class="price-head">
+                                    <h2>Business</h2>
+                                    <h1 class="price">$999</h1>
+                                    <span>/Monthly</span>
+                                </div>
+                                <ul>
+                                    <li>All Operating Supported</li>
+                                    <li>Great Interface</li>
+                                    <li>Allow encription</li>
+                                    <li>Face recognized system</li>
+                                    <li>24/7 Full support</li>
+                                </ul>
+                                <div class="pricing-price">
+
+                                </div>
+                                <a href="#" class="price_btn">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--- END COL -->
+                </div>
+                <!--- END ROW -->
+            </div>
+            <!--- END CONTAINER -->
+        </div>
+    </div>
+    <!-- Page 17 -->
+    <div class="page-17 mt-5" style="display:flex; flex-direction:column;">
+        <div class="p1">
+            <div style="text-align:center;">
+                <h2><strong>Get personal learning recommendations</strong></h2>
+            </div>
+            <div class="my-3" style="text-align:center;">
+                <strong>Enhance your skills with best Online courses</strong>
+            </div>
+            <div class="mt-4" style="display:flex; justify-content: center; font-weight: 500; margin-bottom:8rem">
+                <div>
+                    <select class="form-select" aria-label="Default select example"
+                        style="height: 52px; width: 215px; background-color: rgb(237 234 255); border: none; border-radius: 8px; padding: 10px; color: rgb(100 93 93); font-weight: 500;">
+                        <option selected="">Category</option>
+                        <option value="1">Design</option>
+                        <option value="2">Business</option>
+                        <option value="3">Software Development</option>
+                        <option value="4">Personal Development</option>
+                        <option value="5">Photography</option>
+                        <option value="6">Web Development</option>
+                    </select>
+                </div>
+                <div class="mx-2">
+                    <select class="form-select" aria-label="Default select example"
+                        style="height: 52px; width: 215px; background-color: rgb(237 234 255); border: none; border-radius: 8px; padding: 10px; color: rgb(100 93 93); font-weight: 500;">
+                        <option selected="">Difficulty</option>
+                        <option value="1">Easy</option>
+                        <option value="2">Medium</option>
+                        <option value="3">Hard</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="button" class="btn"
+                        style="background-color: rgb(153, 107, 255); color: white; padding: .8rem 2.5rem;">Get Started
+                        Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page 18 -->
+    <div class="page-18" style="background-color: rgb(85, 12, 181);margin-top:5rem;">
+        <div class="conmid"
+            style="display:flex; justify-content:center; color:white; background-color: rgb(141 137 143); border-radius: 20px; height: 12rem; position:relative; bottom:6rem">
+            <div style="display:flex; flex-direction:column; text-align:center; width:20rem; margin-top: 0.7rem;">
+                <div>
+                    <img src="icons/location.png" alt="error in loading image.."
+                        style="width: 75px; height: 75px; margin:1rem 0.8rem">
+                </div>
+                <div>
+                    <p>329 Queensberry Street, North Melbourne<br>VIC 3051, Australia.</p>
+                </div>
+            </div>
+            <div style="display:flex; flex-direction:column; text-align:center; width:20rem; margin-top: 0.7rem;">
+                <div>
+                    <img src="icons/phoneCall.png" alt="error in loading image.."
+                        style="width: 75px; height: 75px; margin:1rem 0.8rem">
+                </div>
+                <div>
+                    <p>Mobile: (+096) 468 235<br>Fax: (+096) 468 235</p>
+                </div>
+            </div>
+            <div style="display:flex; flex-direction:column; text-align:center; width:20rem; margin-top: 0.7rem;">
+                <div>
+                    <img src="icons/mail.png" alt="error in loading image.."
+                        style="width: 75px; height: 75px; margin:1rem 0.8rem">
+                </div>
+                <div>
+                    <p>support@programmingworld.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="conmid2" style="display:flex; justify-content: space-evenly;">
+            <div class="blocl1">
+                <div class="list-group">
+
+                    <a class="list-group-item list-group-item-action active" aria-current="true">
+                        <h5>Our Company</h5>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">About Us</a>
+                    <a href="#" class="list-group-item list-group-item-action">Contect Us</a>
+                    <a href="#" class="list-group-item list-group-item-action">Community</a>
+                    <a href="#" class="list-group-item list-group-item-action">Student Perks</a>
+                    <a href="#" class="list-group-item list-group-item-action">Blog</a>
+                    <a href="#" class="list-group-item list-group-item-action">Affiliate Program</a>
+                    <a href="#" class="list-group-item list-group-item-action">Careers</a>
+                </div>
+            </div>
+            <div class="blocl2">
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action active" aria-current="true">
+                        <h5>Topic</h5>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">HTML</a>
+                    <a href="#" class="list-group-item list-group-item-action">CSS</a>
+                    <a href="#" class="list-group-item list-group-item-action">Design</a>
+                    <a href="#" class="list-group-item list-group-item-action">JavaScript</a>
+                    <a href="#" class="list-group-item list-group-item-action">Ruby</a>
+                    <a href="#" class="list-group-item list-group-item-action">PHP</a>
+                    <a href="#" class="list-group-item list-group-item-action">Android</a>
+                </div>
+            </div>
+            <div class="blocl3">
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action active" style="color: rgb(85, 12, 181)"
+                        aria-current="true">
+                        <h5>Topic</h5>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Development</a>
+                    <a href="#" class="list-group-item list-group-item-action">Business</a>
+                    <a href="#" class="list-group-item list-group-item-action">Painting</a>
+                    <a href="#" class="list-group-item list-group-item-action">Sketch</a>
+                    <a href="#" class="list-group-item list-group-item-action">Drawing</a>
+                    <a href="#" class="list-group-item list-group-item-action">Sculpture</a>
+                    <a href="#" class="list-group-item list-group-item-action">Digital</a>
+
+                </div>
+            </div>
+            <div class="blocl4">
+                <div class="list-group">
+                    <a class="list-group-item list-group-item-action active" aria-current="true">
+                        <h5>Track</h5>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">Web Design</a>
+                    <a href="#" class="list-group-item list-group-item-action">Web Development</a>
+                    <a href="#" class="list-group-item list-group-item-action">Rails Development</a>
+                    <a href="#" class="list-group-item list-group-item-action">PHP Development</a>
+                    <a href="#" class="list-group-item list-group-item-action">Android Development</a>
+                    <a href="#" class="list-group-item list-group-item-action">Starting a Business</a>
+                </div>
+            </div>
+            <div class="blocl5">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                        <h5>Our Latest Tweets</h5>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+                    <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+                    <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+                </div>
+            </div>
+        </div>
+        <div class="conmid3 mt-5"
+            style="display:flex; justify-content:space-between; padding: 0rem 5rem 0rem 4rem; box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.75)">
+            <div>
+                <h6 style="color:white; margin:2.35rem">Copyright © 2021 CreativeLayers. All Right Reserved.</h6>
+            </div>
+            <div style="display:flex">
+                <div>
+                    <img src="icons/fbook.png" alt="error in loading image.."
+                        style="width: 30px; height: 30px; margin:2rem 0.8rem">
+                </div>
+                <div>
+                    <img src="icons/twitt.png" alt="error in loading image.."
+                        style="width: 30px; height: 30px; margin:2rem 0.8rem">
+                </div>
+                <div>
+                    <img src="icons/igram.png" alt="error in loading image.."
+                        style="width: 30px; height: 30px; margin:2rem 0.8rem">
+                </div>
+                <div>
+                    <img src="icons/linkedin.png" alt="error in loading image.."
+                        style="width: 30px; height: 30px; margin:2rem 0.8rem">
+                </div>
+            </div>
+        </div>
+    </div>

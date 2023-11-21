@@ -1,0 +1,720 @@
+/* -------------------------------------page 1------------------------------------- */
+/* .navbar {
+  border: 1px solid black;
+} */
+
+.nav-item {
+  padding: 0rem 1.5rem;
+}
+
+.btn {
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+.page-1 {
+  /* border: 1px solid red; */
+  height: 100vh;
+  background-image: url("comp5.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  /* background-attachment: fixed; */
+  /* background-size: cover; */
+}
+
+.page-1 .context {
+  bottom: 80px;
+  /* font-size: 50px; */
+}
+
+.page-1 .hcont2 {
+  font-size: 1.05rem;
+}
+
+.page-1 .navb img {
+  width: 90px;
+  height: 40px;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* --------------------------loging and signup button----------------- */
+.navb .cont {
+  /* position: absolute; */
+  /* transform: translate(-50%, -50%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navb .btn {
+  width: 130px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: transparent;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.navb svg {
+  position: relative;
+  left: -13px;
+  top: -7px;
+  border: 2px solid rgb(106, 9, 197);
+  border-radius: 10px;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 200 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.navb .btn:hover {
+  color: white;
+  transition: 1s ease-in-out;
+  /* background: #4F95DA; */
+  background: rgb(106, 9, 197);
+}
+
+.navb .btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+/* --------------------------loging and signup button when menu bar show----------------- */
+.modal-footer .cont {
+  /* position: absolute; */
+  /* transform: translate(-50%, -50%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-footer .btn {
+  width: 130px;
+  height: 45px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: transparent;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.modal-footer svg {
+  position: relative;
+  left: -13px;
+  top: -7px;
+  border: 2px solid rgb(106, 9, 197);
+  border-radius: 10px;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 200 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.modal-footer .btn:hover {
+  color: white;
+  transition: 1s ease-in-out;
+  /* background: #4F95DA; */
+  background: rgb(106, 9, 197);
+}
+
+.modal-footer .btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+/* ---------------- making responsive between 576-992 ------------------ */
+@media (width>=576px) and (width<992px) {
+  .page-1 {
+    /* border: 1px solid red; */
+    width: 167vw;
+    height: 170vh;
+    background-image: url("comp5.jpg");
+    background-repeat: no-repeat;
+    background-size: 167vw 170vh;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+  }
+
+  .page-1 .navb_2 img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .page-1 .context {
+    bottom: -180px;
+    font-size: 50px;
+  }
+
+  .page-2 {
+    width: 167vw;
+  }
+
+  .page-2 .p2 .card {
+    height: 23rem;
+  }
+
+  .page-2 .p2 .card img {
+    height: 23rem;
+  }
+
+  .page-3,
+  .page-5,
+  .page-6,
+  .page-7,
+  .page-8,
+  .page-9,
+  .page-11,
+  .page-13,
+  .page-15,
+  .page-17 {
+    width: 167vw;
+  }
+
+  .page-4 {
+    width: 160vw;
+  }
+
+  .page-10,
+  .page-12,
+  .page-14,
+  .page-16 {
+    width: 170vw;
+  }
+
+  .page-9 .cardDis {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .navb_2 {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .navb {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1035px) {
+  .nav-item {
+    padding: 0rem 0.5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1008px) {
+  .page-1 .header {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1009px) {
+  .page-1 .header {
+    font-size: 3.5rem;
+  }
+}
+
+/* ------------------------------------------------------ */
+/* --------------------------Page 7---------------------------- */
+.Stars {
+  --star-size: 25px;
+  --star-color: #838383;
+  --star-background: #fc0;
+  --percent: calc(var(--rating) / 5 * 100%);
+
+  /* display: inline-block; */
+  font-size: var(--star-size);
+  font-family: Times; /* make sure ★ appears correctly*/
+  line-height: 1;
+
+  &::before {
+    content: "★★★★★";
+    /* letter-spacing: 1px; */
+    background: linear-gradient(
+      90deg,
+      var(--star-background) var(--percent),
+      var(--star-color) var(--percent)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0px 5px;
+  }
+}
+
+/* ------------------------page 5------------------------------ */
+
+.card-title {
+  margin-bottom: 0rem;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.category {
+  border-radius: 5rem;
+  cursor: pointer;
+  padding: 0px;
+  margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.category a {
+  text-decoration: none;
+  color: black;
+}
+
+.category .active p {
+  color: white;
+  background-color: rgb(106, 9, 198);
+  border-radius: 5rem;
+}
+
+.category a:hover {
+  color: white;
+}
+
+.category:hover {
+  color: white;
+  background-color: rgb(106, 9, 198);
+}
+
+.page-5,
+.p2,
+.card-body {
+  padding: 0rem;
+  text-align: left;
+}
+
+/* below chacked class is for to colour the star rating  */
+.checked {
+  color: orange;
+}
+
+.button {
+  font-size: larger;
+  font-weight: 500;
+  color: rgb(96, 59, 198);
+  border: 3px solid rgb(43, 239, 164);
+  border-radius: 25px;
+}
+
+.button:hover {
+  color: rgb(96, 59, 198);
+  font-size: larger;
+  font-weight: 500;
+  background-color: rgb(43, 239, 164);
+  border: 3px solid rgb(43, 239, 164);
+  border-radius: 25px;
+}
+
+/* below css is for page13 testimonials */
+.testimonal {
+  font-family: "Open Sans", sans-serif;
+}
+
+.testimonal .h2 {
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 30px 0 60px;
+}
+
+.testimonal .h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #8fbc54;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+}
+
+.testimonal .col-center {
+  margin: 0 auto;
+  float: none !important;
+}
+
+.testimonal .carousel {
+  padding: 0 70px;
+}
+
+.testimonal .carousel .carousel-item {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 290px;
+}
+
+.testimonal .carousel .carousel-item .img-box {
+  width: 135px;
+  height: 135px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+
+.testimonal .carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+.testimonal .carousel .testimonial {
+  padding: 30px 0 10px;
+}
+
+.testimonal .carousel .overview {
+  font-style: italic;
+}
+
+.testimonal .carousel .overview b {
+  text-transform: uppercase;
+  color: #7aa641;
+}
+
+.testimonal .carousel-control-prev,
+.testimonal .carousel-control-next {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  top: 50%;
+  background: none;
+}
+
+.testimonal .carousel-control-prev i,
+.testimonal .carousel-control-next i {
+  font-size: 68px;
+  line-height: 42px;
+  position: absolute;
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+
+.testimonal .carousel-indicators {
+  bottom: -40px;
+}
+
+.testimonal .carousel-indicators li,
+.testimonal .carousel-indicators li.active {
+  width: 12px;
+  height: 12px;
+  margin: 1px 3px;
+  border-radius: 50%;
+  border: none;
+}
+
+.testimonal .carousel-indicators li {
+  background: #999;
+  border-color: transparent;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.testimonal .carousel-indicators li.active {
+  background: #555;
+  box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* below css is for pricing template on page 16 */
+.pricetemp {
+  margin-top: 20px;
+  background: rgb(219, 255, 223);
+}
+
+.pricetemp .pricing-content {
+  position: relative;
+}
+
+.pricetemp .pricing_design {
+  position: relative;
+  margin: 0px 15px;
+  z-index: 0;
+}
+
+.pricetemp .pricing_design .single-pricing {
+  background: #554c86;
+  padding: 15px 40px;
+  border-radius: 30px;
+  box-shadow: 0 10px 40px -10px rgba(0, 64, 128, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+.pricetemp .pricing_design .single-pricing:before {
+  content: "";
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 18px 18px 190px 18px;
+  border: 1px solid #eee;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.pricetemp .price-head h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.pricetemp .price-head h1 {
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.pricetemp .single-pricing ul {
+  list-style: none;
+  margin-top: 5px;
+  padding: 0px 0px;
+}
+
+.pricetemp .single-pricing ul li {
+  line-height: 36px;
+}
+
+.pricetemp .single-pricing ul li i {
+  background: #554c86;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  font-size: 11px;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 6px;
+}
+
+.pricetemp .price_btn {
+  background: #554c86;
+  padding: 10px 30px;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pricetemp .price_btn {
+    background: #554c86;
+    padding: 10px 20px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+}
+
+.pricetemp .price_btn:hover {
+  background: #0aa1d6;
+}
+
+.pricetemp a {
+  text-decoration: none;
+}
+
+.pricetemp .section-title {
+  margin-bottom: 15px;
+}
+
+.pricetemp .text-center {
+  text-align: center !important;
+}
+
+.pricetemp .section-title h2 {
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 0;
+  position: relative;
+  text-transform: capitalize;
+}
+
+/* below css is for page 18 */
+.page-18 .list-group-item {
+  color: #ffffff;
+  border: 1px solid rgb(85, 12, 181);
+  background-color: transparent;
+  padding: 0.2rem 1.25rem;
+}
+
+.page-18 .list-group-item.active {
+  z-index: 0;
+  color: #ffffff;
+  background-color: rgb(85, 12, 181);
+  border-color: rgb(85, 12, 181);
+}
+
+/* ------------------------making responsive------------------------ */
+
+/* page 10 */
+@media (min-width: 992px) and (max-width: 1100px) {
+  .page-10 .card {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .page-10 .card {
+    width: 22rem;
+  }
+}
+
+/* page11 */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .page-11 .card {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-11 .card {
+    width: 18rem;
+  }
+}
+
+@media (min-width: 1235px) {
+  .page-12 .p2 .card {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 1235px) {
+  .page-12 .p2 .card {
+    width: 15rem;
+  }
+}
+
+/* -------------------------this is for menu bar for width less then 992px-------------------------- */
+label {
+  display: flex;
+  flex-direction: column;
+  width: 35px;
+  cursor: pointer;
+}
+
+label span {
+  background: #aa46e7;
+  border-radius: 10px;
+  height: 2px;
+  margin: 7px 0;
+  transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+}
+
+span:nth-of-type(1) {
+  width: 50%;
+}
+
+span:nth-of-type(2) {
+  width: 100%;
+}
+
+span:nth-of-type(3) {
+  width: 75%;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(1) {
+  transform-origin: bottom;
+  transform: rotatez(45deg) translate(3px, 0px);
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(2) {
+  transform-origin: top;
+  transform: rotatez(-45deg);
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+  transform-origin: bottom;
+  width: 50%;
+  transform: translate(15px, -3px) rotatez(45deg);
+}
+
+/* --------------------page 18------------------------ */
+.page-18 {
+  width: -webkit-fill-available;
+}
+
+.page-18 .conmid {
+  width: 90vw;
+  margin: auto;
+}
+
+@media (width>=576px) and (width<992px) {
+  .page-18 {
+    width: 170vw;
+  }
+
+  .page-18 .conmid {
+    width: 150vw;
+    margin: auto;
+  }
+}
+
+/* ----------------making responsive width less than 576px-------------------- */
+/* @media (width<576px) {
+    .page-1 {
+        width: 350vw;
+        height: 350vh;
+        background-image: url('comp5.jpg');
+        background-repeat: no-repeat;
+        background-size: 350vw 350vh;
+    }
+
+    .page-1 .context {
+        width: 310vw;
+        bottom: -220vh;
+        font-size: 75px;
+    }
+
+    .page-1 .hcont2 {
+        font-size: 40px;
+    }
+
+    .page-1 .hcont3 button {
+        width: 230px;
+        height: 80px;
+        font-size: 30px;
+    }
+} */
